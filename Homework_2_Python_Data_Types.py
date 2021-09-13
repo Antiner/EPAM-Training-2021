@@ -36,19 +36,19 @@ def task_1_3(*args):
 # (https://en.wikipedia.org/wiki/Divisor) of that number.
 
 def task_1_3_1(n):
-    L = []
+    my_list = []
     for i in range(1, (int(n) + 1)):
         if int(n) % i == 0:
-            L.append(i)
-    print(L)
+            my_list.append(i)
+    print(my_list)
 
 
 # Task 1.4
 # Write a Python program to sort a dictionary by key.
 
-def task_1_4(color_dict):
-    for key in sorted(color_dict):
-        print("%s: %s" % (key, color_dict[key]))
+def task_1_4(dictionary):
+    for key in sorted(dictionary):
+        print("%s: %s" % (key, dictionary[key]))
 
 
 # Task 1.5
