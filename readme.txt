@@ -1,1 +1,1 @@
-Task from Epam.
+Tasks from Epam.
